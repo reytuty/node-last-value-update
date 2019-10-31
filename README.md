@@ -13,7 +13,6 @@ npm i --save node-last-value-update
 ```
 const LastValueUpdate = require("node-last-value-update");
 
-
 var l = new LastValueUpdate(doSomething , 5000) ;
 //set initial value, data can be everything
 l.data = 1 ;
@@ -67,6 +66,29 @@ OUT
     100 ,   e
 
 ```
+
+# Methods
+
+## start
+
+```
+var l = new LastValueUpdate(doSomething , 5000) ;
+l.data = {a:1,b:2} ;
+l.start();
+```
+
+## stop
+
+```
+var l = new LastValueUpdate(doSomething , 5000) ;
+l.data = false ;
+l.start();
+l.stop() ;
+```
+
+# Extra
+
+More details see https://www.npmjs.com/package/node-arm-refresh-in-time
 
 ## Just on Change
 
