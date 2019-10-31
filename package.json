@@ -1,6 +1,6 @@
 {
   "name": "node-last-value-update",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "JS class to update last value on max frequency",
   "main": "index.js",
   "scripts": {
