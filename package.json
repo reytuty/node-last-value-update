@@ -1,0 +1,24 @@
+{
+  "name": "node-last-value-update",
+  "version": "1.0.0",
+  "description": "JS class to update last value on max frequency",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/reytuty/node-last-value-update.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/reytuty/node-last-value-update/issues"
+  },
+  "homepage": "https://github.com/reytuty/node-last-value-update#readme",
+  "dependencies": {
+    "node-arm-refresh-in-time": "^1.0.1",
+    "signals": "^1.0.0"
+  }
+}
